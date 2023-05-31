@@ -7,14 +7,14 @@ local layout = window:addChild(GUI.layout(1, 1, window.width, window.height, 1, 
 
 local textbox = layout:addChild(GUI.input(1, 1, 25, 1, 0xFFFFFF, 0x000000, 0xC3C3C3, 0xFFFFFF, 0x000000, "", "Wat do u want to order:"))
 
-local button1 = layout:addChild(GUI.button(1, 1, 8, 1, 0x4B4B4B, 0xFFFFFF, 0x0, 0xFFFFFF, "1"))
+local button1 = layout:addChild(GUI.button(1, 1, 8, 1, 0x4B4B4B, 0xFFFFFF, 0x0, 0xFFFFFF, "Cheesburger"))
 button1.onTouch = function()
   window:remove()
   local order = os.time()
   GUI.alert("Hello, you ordered cheesburger,\nOrder number: " .. order)
 end
 
-local button2 = layout:addChild(GUI.button(1, 1, 8, 1, 0x4B4B4B, 0xFFFFFF, 0x0, 0xFFFFFF, "0"))
+local button2 = layout:addChild(GUI.button(1, 1, 8, 1, 0x4B4B4B, 0xFFFFFF, 0x0, 0xFFFFFF, "Fries"))
 button2.onTouch = function()
   window:remove()
   local order = os.time()
