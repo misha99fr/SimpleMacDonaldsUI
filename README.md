@@ -1,4 +1,11 @@
 # SimpleMacDonaldsUI
-Made in LUA for openComputers
+
+Lua Program for Opencomputers in MCDONALDS WORKSPACES
+
 Simple McDonalds Ui written in Lua
-And version for MineOS
+
+TWO VERSIONS:
+
+Console(OPENOS)
+
+GUI(MineOS)
